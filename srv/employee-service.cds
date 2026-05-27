@@ -8,7 +8,7 @@ service EmployeeService {
 }
 
 annotate EmployeeService.Employee with @(UI: {
-    LineItem             : [
+    LineItem           : [
         {
             $Type: 'UI.DataField',
             Value: NAME,
